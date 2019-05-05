@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("font-awesome.min.css");
 
-/*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -161,7 +155,6 @@ textarea {
 }
 
 /* Row */
-
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -1524,6 +1517,13 @@ blockquote {
 	font-style: italic;
 }
 
+.languages,
+.social-links {
+	display: flex;
+	justify-content: space-evenly;
+	color: grey;
+}
+
 em,
 i {
 	font-style: italic;
@@ -1642,8 +1642,28 @@ form :-ms-input-placeholder {
 	color: #999;
 }
 
-/* Section/Article */
+.contact-links {
+	margin-bottom: 25px;
+}
 
+.contact-links a {
+	text-decoration: none;
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+	color: grey;
+}
+
+.social-links a {
+	color: grey;
+}
+
+.phone-link {
+	float: right;
+}
+
+
+/* Section/Article */
 section,
 article {
 	margin-bottom: 3em;
@@ -1679,10 +1699,6 @@ header>p {
 	display: inline-block;
 }
 
-.image img {
-	display: block;
-	width: 100%;
-}
 
 .image.fit {
 	display: block;
@@ -1714,45 +1730,64 @@ header>p {
 /* Title within Images */
 
 .image-box {
-	/* position: relative; */
+	overflow: hidden;
+	display: block;
+	float: left;
+	width: 100%;
 }
+
+.box0,
+.box1,
+.box2,
+.box3 {
+	width: 90%;
+	height: 400px;
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+	/* margin-bottom: 25px; */
+}
+
+.box0 {
+	/* background: url("https://mgmoser1.github.io/group-project-1/"); */
+	background-image: url("../../images/bar.jpg");
+
+}
+
+.box1 {
+	background-image: url("https://images.unsplash.com/photo-1527295110-5145f6b148d0");
+}
+
+.box2 {
+	background-image: url("https://images.unsplash.com/photo-1521714161819-15534968fc5f");
+}
+
+.box3 {
+	background-image: url("https://images.unsplash.com/photo-1484069560501-87d72b0c3669")
+}
+
 
 .titles {
-	/* position: relative;
+	position: relative;
 	text-align: center;
-	display: -webkit-flex; */
-	/* display: flex; */
-	/* -webkit-flex-direction: row; */
-	/* flex-direction: row;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-ms-backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-ms-transform: translate3d(0, 0, 0);
-	-webkit-transform: translate3d(0, 0, 0);
-	-o-transform: translate3d(0, 0, 0);
-	-moz-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	-webkit-transition: -webkit-transform 150ms ease-out;
-	transition: transform 150ms ease-out;
-	-webkit-transform: perspective(150px) rotateX(0deg) rotateY(0deg);
-	transform: perspective(150px) rotateX(0deg) rotateY(0deg); */
-	/* top: 5; */
-
-	margin-top: -150px;
-	background-color: black;
+	margin-top: 25%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 20px;
+	background-color: white;
+	/* width: 80%; */
 	color: blue;
-	font-size: 25px;
-	z-index: 4;
-
-
+	font-size: 20px;
+	opacity: 0.8;
 }
 
+.titles a {
+	color: red;
+	text-decoration: none;
+}
+
+.titles h2 {
+	color: blue;
+}
 
 /* Button */
 
