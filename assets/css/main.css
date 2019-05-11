@@ -1739,7 +1739,8 @@ header>p {
 .box0,
 .box1,
 .box2,
-.box3 {
+.box3,
+.box4 {
 	width: 90%;
 	height: 400px;
 	/* background-repeat: no-repeat; */
@@ -1761,6 +1762,10 @@ header>p {
 }
 
 .box3 {
+	background-image: url("https://i.ibb.co/FsS8k3V/Inquirer.jpg");
+}
+
+.box4 {
 	background-image: url("https://images.unsplash.com/photo-1484069560501-87d72b0c3669")
 }
 
