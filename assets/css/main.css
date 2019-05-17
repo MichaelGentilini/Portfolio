@@ -1740,7 +1740,8 @@ header>p {
 .box1,
 .box2,
 .box3,
-.box4 {
+.box4,
+.box5 {
 	width: 90%;
 	height: 400px;
 	/* background-repeat: no-repeat; */
@@ -1766,8 +1767,15 @@ header>p {
 }
 
 .box4 {
+	background-image: url("../../images/guess.jpg")
+}
+
+.box5 {
 	background-image: url("https://images.unsplash.com/photo-1484069560501-87d72b0c3669")
 }
+
+
+
 
 
 .titles {
