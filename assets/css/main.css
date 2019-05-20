@@ -1562,6 +1562,7 @@ form {
 	margin-bottom: 2em;
 }
 
+
 /* Table */
 
 table {
@@ -1741,7 +1742,8 @@ header>p {
 .box2,
 .box3,
 .box4,
-.box5 {
+.box5,
+.box6 {
 	width: 90%;
 	height: 400px;
 	/* background-repeat: no-repeat; */
@@ -1763,18 +1765,22 @@ header>p {
 }
 
 .box3 {
-	background-image: url("https://i.ibb.co/FsS8k3V/Inquirer.jpg");
+	background: url(https://images.unsplash.com/photo-1502101872923-d48509bff386?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9);
+	/* background-image: url("https://i.ibb.co/FsS8k3V/Inquirer.jpg"); */
 }
 
 .box4 {
-	background-image: url("../../images/guess.jpg")
+	background-image: url("https://i.ibb.co/FsS8k3V/Inquirer.jpg");
 }
 
 .box5 {
-	background-image: url("https://images.unsplash.com/photo-1484069560501-87d72b0c3669")
+	background-image: url("../../images/guess.jpg");
 }
 
+.box6 {
+	background-image: url("https://images.unsplash.com/photo-1484069560501-87d72b0c3669");
 
+}
 
 
 
@@ -2390,5 +2396,9 @@ body.is-preload #wrapper {
 		padding-left: 0.5em;
 		margin-left: 0.5em;
 	}
+}
 
+
+.myimg {
+	padding: 20px;
 }
