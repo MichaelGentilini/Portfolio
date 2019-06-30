@@ -12,6 +12,7 @@
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/ios/50/000000/laptop.png" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 </head>
 
 <body class="is-preload">
@@ -69,8 +70,9 @@
               <div class="col-12 col-12-small image-box box0">
                 <div class="titles">
                   <span>
-                    <h5>Find My Buzz</h5>
-                    <a href="https://github.com/mgmoser1/group-project-1"><i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
+                    <h5>Find My Buzz (group project)</h5>
+                    <a href="https://github.com/mgmoser1/group-project-1"><i class="fab fa-github"
+                        aria-hidden="true"></i> &nbsp;&nbsp;
                       Repository</a>
                   </span>
 
@@ -86,9 +88,23 @@
 
                 <div class="titles">
                   <span>
-                    <h5>Hot Load</h5>
-                    <a href="https://github.com/dallasappraiser/Hot-Load">  
-                      <i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
+                    <h5>Hot Load (group project)</h5>
+                    <a href="https://github.com/dallasappraiser/Hot-Load">
+                      <i class="fab fa-github" aria-hidden="true"></i> &nbsp;&nbsp;
+                      Repository</a>
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- ? Burger Town -->
+            <a href="https://myburgertown.herokuapp.com/" class="image fit">
+              <div class="col-12 col-12-small image-box box2">
+                <div class="titles">
+                  <span>
+                    <h5>Burger Town</h5>
+                    <a href="https://github.com/dallasappraiser/burger"><i class="fab fa-github" aria-hidden="true"></i>
+                      &nbsp;&nbsp;
                       Repository</a>
                   </span>
                 </div>
@@ -98,12 +114,13 @@
             <!-- ? Giphy Api - superheroes -->
 
             <a href="https://dallasappraiser.github.io/Giphy-API/" class="image fit">
-              <div class="col-12 col-12-small image-box box2">
+              <div class="col-12 col-12-small image-box box3">
 
                 <div class="titles">
                   <span>
                     <h5>Superhero Giphy-API</h5>
-                    <a href="https://github.com/dallasappraiser/Giphy-API/"><i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
+                    <a href="https://github.com/dallasappraiser/Giphy-API/"><i class="fab fa-github"
+                        aria-hidden="true"></i> &nbsp;&nbsp;
                       Repository</a>
                   </span>
                 </div>
@@ -112,11 +129,12 @@
 
             <!-- ? #Javascript30 Challenge -->
             <a href="https://dallasappraiser.github.io/My-JS30-Challenge/" class="image fit">
-              <div class="col-12 col-12-small image-box box3">
+              <div class="col-12 col-12-small image-box box4">
                 <div class="titles">
                   <span>
                     <h5>My #JavaScript30 Journey</h5>
-                    <a href="https://github.com/dallasappraiser/My-JS30-Challenge"><i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
+                    <a href="https://github.com/dallasappraiser/My-JS30-Challenge"><i class="fab fa-github"
+                        aria-hidden="true"></i> &nbsp;&nbsp;
                       Repository</a>
                   </span>
                 </div>
@@ -127,41 +145,32 @@
 
             <a href="https://drive.google.com/file/d/1g7SUfKcP6B-7utGrUiZ0iy8Osx59_T9S/view?usp=sharing"
               class="image fit">
-              <div class="col-12 col-12-small image-box box4">
+              <div class="col-12 col-12-small image-box box5">
                 <div class="titles">
                   <span>
                     <h5>LIRI node-app</h5>
-                    <a href="https://github.com/dallasappraiser/liri-node-app"><i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
+                    <a href="https://github.com/dallasappraiser/liri-node-app"><i class="fab fa-github"
+                        aria-hidden="true"></i> &nbsp;&nbsp;
                       Repository</a>
                   </span>
                 </div>
               </div>
 
               <!-- ? Constructor-Word-Guess - Using Node -->
-
+              <!-- 
               <a href="https://drive.google.com/file/d/1vwzpCuKterh_3AOoR4u6V-GI6RJakP-W/view" class="image fit">
                 <div class="col-12 col-12-small image-box box5">
                   <div class="titles">
                     <span>
                       <h5>Constructor-Word-Guess</h5>
-                      <a href="https://github.com/dallasappraiser/Constructor-Word-Guess"><i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
+                      <a href="https://github.com/dallasappraiser/Constructor-Word-Guess"><i class="fab fa-github"
+                          aria-hidden="true"></i> &nbsp;&nbsp;
                         Repository</a>
                     </span>
                   </div>
-                </div>
+                </div> -->
 
-                <!-- ? Burger Town -->
-                <a href="https://myburgertown.herokuapp.com/" class="image fit">
-                  <div class="col-12 col-12-small image-box box6">
-                    <div class="titles">
-                      <span>
-                        <h5>Burger Town</h5>
-                        <a href="https://github.com/dallasappraiser/burger"><i class="fab fa-github" aria-hidden="true"></i>  &nbsp;&nbsp;
-                          Repository</a>
-                      </span>
-                    </div>
-                  </div>
-                </a>
+
 
           </div>
         </section>
@@ -169,27 +178,27 @@
 
       <!-- Contact -->
       <article id="contact" class="panel">
-
         <header>
           <h2>Contact Me</h2>
         </header>
-        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true"
+          data-netlify="true">
           <div>
-              <p class="hidden">
-                  <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                </p>
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
             <div class="row">
               <div class="col-6 col-12-medium">
-                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="name" id="name" placeholder="Name" />
               </div>
               <div class="col-6 col-12-medium">
-                <input type="text" name="email" placeholder="Email" />
+                <input type="text" name="email" id="email" placeholder="Email" />
               </div>
               <div class="col-12">
-                <input type="text" name="subject" placeholder="Subject" />
+                <input type="text" name="subject" id="subject" placeholder="Subject" />
               </div>
               <div class="col-12">
-                <textarea name="message" placeholder="Message" rows="6"></textarea>
+                <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
               </div>
               <div data-netlify-recaptcha="true"></div>
               <div class="col-12 submit-message">
@@ -219,15 +228,15 @@
   </div>
   </article>
 
- 
+
   <div id="footer">
     <div class="row aln-center">
       <div> MGentilini &copy; 2019 </div>
-  
+
       <div><a class="mail-link" href="mailto:michael@dfwqualityappraisal.com">michael@dfwqualityappraisal.com</a></div>
 
       <div><a class="phone-link" href="tel:+2144770960">214 477-0960</a></div>
-  
+
     </div>
   </div>
 

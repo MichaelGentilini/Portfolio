@@ -203,10 +203,18 @@
 		});
 
 	}
+
+
 	$('#submit-message').on('click', function (event) {
-		event.preventDefault;
-		swal("Here's the title!", "...and here's the text!");
-		swal
+
+		if ($('#name').val() === "" || $('#message').val() === "" || $('#subject').val() === "" || $('#message').val() === "") {
+			Swal.fire(
+				'Trying to submit something',
+				'make sure you enter something in all the fields first',
+				'question'
+			)
+			return false;
+		}
 	});
 
 })(jQuery);
