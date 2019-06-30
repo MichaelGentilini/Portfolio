@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <!-- The base template is Astral by HTML5 UP which is free for personal and commercial use under the CCA 3.0 license (html5up.net/license) -->
 <html>
 
@@ -166,8 +165,11 @@
         <header>
           <h2>Contact Me</h2>
         </header>
-        <form>
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
           <div>
+              <p class="hidden">
+                  <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
             <div class="row">
               <div class="col-6 col-12-medium">
                 <input type="text" name="name" placeholder="Name" />
@@ -181,6 +183,7 @@
               <div class="col-12">
                 <textarea name="message" placeholder="Message" rows="6"></textarea>
               </div>
+              <div data-netlify-recaptcha="true"></div>
               <div class="col-12 submit-message">
                 <input type="submit" value="Send Message" id="submit-message" />
               </div>
@@ -213,7 +216,6 @@
   <div id="footer">
     <ul class="copyright">
       <li>&copy; letsDoThis 2019 </li>
-      <li>Design: help from <a href="http://html5up.net">HTML5 UP</a></li>
     </ul>
   </div>
   </div>
