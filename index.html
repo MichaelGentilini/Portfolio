@@ -1,252 +1,332 @@
 <!DOCTYPE html>
 <!-- The base template is Astral by HTML5 UP which is free for personal and commercial use under the CCA 3.0 license (html5up.net/license) -->
 <html>
+  <head>
+    <title>Michael Gentilini</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://img.icons8.com/ios/50/000000/laptop.png"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  </head>
 
-<head>
-  <title>Michael Gentilini</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-  <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/ios/50/000000/laptop.png" />
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-</head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- ! Nav -->
+      <nav id="nav">
+        <a href="#" class="icon fa-home"><span>Home</span></a>
+        <a href="#work" class="icon fa-folder"><span>Portfolio</span></a>
+        <a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+      </nav>
 
-<body class="is-preload">
-  <!-- Wrapper-->
-  <div id="wrapper">
-    <!-- Nav -->
-    <nav id="nav">
-      <a href="#" class="icon fa-home"><span>Home</span></a>
-      <a href="#work" class="icon fa-folder"><span>Portfolio</span></a>
-      <a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
-    </nav>
-
-    <!-- Main -->
-    <div id="main">
-      <!-- Me -->
-      <article id="home" class="panel intro">
-        <header>
-          <h1>Michael Gentilini</h1>
-          <p>
-            Full Stack Developer
-          </p>
-          <blockquote class="blockquote">
-            <p class="mb-5">
-              Believe you can and you're halfway there.
+      <!-- ! Main -->
+      <!-- <article>
+         <section> -->
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>Michael Gentilini</h1>
+            <p>
+              I am a Full Stack Web Developer who is dedicated to finding
+              solutions to problems others shy away from. Prior experience as a
+              business owner combined with education in Linux/Unix and
+              Javascript Full Stack Development gives me a unique perspective
+              and ability to succeed.
             </p>
-            <footer class="blockquote-footer">
-              Theodore Roosevelt
-            </footer>
-          </blockquote>
-          <div class="languages">
-            <i class="fab fa-html5 fa-2x"></i>
-            <i class="fab fa-css3-alt fa-2x"></i>
-            <i class="fab fa-js fa-2x"></i>
-            <i class="fab fa-node fa-2x"></i>
-            <i class="fab fa-bootstrap fa-2x"></i>
-          </div>
-        </header>
-        <img class="myimg" src="images/me.jpg" alt="Michael Gentilini" />
-        </a>
-
-      </article>
-
-      <!-- Work -->
-      <article id="work" class="panel">
-        <header>
-          <h2>Portfolio</h2>
-        </header>
-        <p>
-          This is a small sampling of recent projects.
-        </p>
-        <section>
-          <div class="row">
-            <!-- ? Project 1   -->
-            <a href="https://mgmoser1.github.io/group-project-1/" class="image fit">
-              <div class="col-12 col-12-small image-box box0">
-                <div class="titles">
-                  <span>
-                    <h5>Find My Buzz (group project)</h5>
-                    <a href="https://github.com/mgmoser1/group-project-1"><i class="fab fa-github"
-                        aria-hidden="true"></i> &nbsp;&nbsp;
-                      Repository</a>
-                  </span>
-
+            <p>
+              Check out some of my <a href="#work">projects </a> and let me know
+              how I can help you!
+            </p>
+            <!-- <blockquote class="blockquote">
+              <p class="mb-5">
+                Believe you can and you're halfway there... Theodore Roosevelt
+              </p>
+            </blockquote> -->
+            <br />
+            <div class="languages">
+              <i class="fab fa-html5 fa-2x"></i>
+              <i class="fab fa-css3-alt fa-2x"></i>
+              <i class="fab fa-js fa-2x"></i>
+              <i class="fab fa-node fa-2x"></i>
+              <i class="fab fa-bootstrap fa-2x"></i>
+              <i class="fab fa-react fa-2x"></i>
+            </div>
+          </header>
+        </article>
+        <!-- Work -->
+        <article id="work" class="panel">
+          <header>
+            <h2>Portfolio</h2>
+          </header>
+          <p>
+            This is a small sampling of recent projects.
+          </p>
+          <section>
+            <div class="row">
+              <!-- ? Project 3 -->
+              <a href="https://my-home-wallet.herokuapp.com/" class="image fit">
+                <div class="col-12 col-12-small image-box box6">
+                  <div class="titles">
+                    <span>
+                      <h5>Home Wallet (group project)</h5>
+                      <a href="https://github.com/MichaelGentilini/home-wallet">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
 
-
-            <!-- ? Project 2 -->
-            <a href="https://hot-load.herokuapp.com" class="image fit">
-              <div class="col-12 col-12-small image-box box1">
-
-
-                <div class="titles">
-                  <span>
-                    <h5>Hot Load (group project)</h5>
-                    <a href="https://github.com/dallasappraiser/Hot-Load">
-                      <i class="fab fa-github" aria-hidden="true"></i> &nbsp;&nbsp;
-                      Repository</a>
-                  </span>
+              <!-- ? Project 2 -->
+              <a href="https://hot-load.herokuapp.com" class="image fit">
+                <div class="col-12 col-12-small image-box box1">
+                  <div class="titles">
+                    <span>
+                      <h5>Hot Load (group project)</h5>
+                      <a href="https://github.com/michaelgentilini/Hot-Load">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
 
-            <!-- ? Burger Town -->
-            <a href="https://myburgertown.herokuapp.com/" class="image fit">
-              <div class="col-12 col-12-small image-box box2">
-                <div class="titles">
-                  <span>
-                    <h5>Burger Town</h5>
-                    <a href="https://github.com/dallasappraiser/burger"><i class="fab fa-github" aria-hidden="true"></i>
-                      &nbsp;&nbsp;
-                      Repository</a>
-                  </span>
+              <!-- ? Project 1   -->
+              <a
+                href="https://mgmoser1.github.io/group-project-1/"
+                class="image fit"
+              >
+                <div class="col-12 col-12-small image-box box0">
+                  <div class="titles">
+                    <span>
+                      <h5>Find My Buzz (group project)</h5>
+                      <a href="https://github.com/mgmoser1/group-project-1"
+                        ><i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
 
-            <!-- ? Giphy Api - superheroes -->
-
-            <a href="https://dallasappraiser.github.io/Giphy-API/" class="image fit">
-              <div class="col-12 col-12-small image-box box3">
-
-                <div class="titles">
-                  <span>
-                    <h5>Superhero Giphy-API</h5>
-                    <a href="https://github.com/dallasappraiser/Giphy-API/"><i class="fab fa-github"
-                        aria-hidden="true"></i> &nbsp;&nbsp;
-                      Repository</a>
-                  </span>
+              <!-- ? Mongoose News Reader -->
+              <a
+                href="https://my-mongoose-news-scraper.herokuapp.com/nyt"
+                class="image fit"
+              >
+                <div class="col-12 col-12-small image-box box2">
+                  <div class="titles">
+                    <span>
+                      <h5>Mongoose News Reader (scraper)</h5>
+                      <a
+                        href="https://github.com/MichaelGentilini/Mongoose-News-Scraper"
+                        ><i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
 
-            <!-- ? #Javascript30 Challenge -->
-            <a href="https://dallasappraiser.github.io/My-JS30-Challenge/" class="image fit">
-              <div class="col-12 col-12-small image-box box4">
-                <div class="titles">
-                  <span>
-                    <h5>My #JavaScript30 Journey</h5>
-                    <a href="https://github.com/dallasappraiser/My-JS30-Challenge"><i class="fab fa-github"
-                        aria-hidden="true"></i> &nbsp;&nbsp;
-                      Repository</a>
-                  </span>
+              <!-- ? Giphy Api - superheroes -->
+              <a
+                href="https://michaelgentilini.github.io/Giphy-API/"
+                class="image fit"
+              >
+                <div class="col-12 col-12-small image-box box3">
+                  <div class="titles">
+                    <span>
+                      <h5>Superhero Giphy-API</h5>
+                      <a href="https://github.com/michaelgentilini/Giphy-API/"
+                        ><i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
 
-            <!-- ? LiriNode App -->
-
-            <a href="https://drive.google.com/file/d/1g7SUfKcP6B-7utGrUiZ0iy8Osx59_T9S/view?usp=sharing"
-              class="image fit">
-              <div class="col-12 col-12-small image-box box5">
-                <div class="titles">
-                  <span>
-                    <h5>LIRI node-app</h5>
-                    <a href="https://github.com/dallasappraiser/liri-node-app"><i class="fab fa-github"
-                        aria-hidden="true"></i> &nbsp;&nbsp;
-                      Repository</a>
-                  </span>
+              <!-- ? #Javascript30 Challenge -->
+              <a
+                href="https://michaelgentilini.github.io/My-JS30-Challenge/"
+                class="image fit"
+              >
+                <div class="col-12 col-12-small image-box box4">
+                  <div class="titles">
+                    <span>
+                      <h5>My #JavaScript30 Journey</h5>
+                      <a
+                        href="https://github.com/michaelgentilini/My-JS30-Challenge"
+                        ><i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
+                    </span>
+                  </div>
                 </div>
-              </div>
+              </a>
 
-              <!-- ? Constructor-Word-Guess - Using Node -->
-              <!-- 
-              <a href="https://drive.google.com/file/d/1vwzpCuKterh_3AOoR4u6V-GI6RJakP-W/view" class="image fit">
+              <!-- ? LiriNode App -->
+              <a
+                href="https://drive.google.com/file/d/1g7SUfKcP6B-7utGrUiZ0iy8Osx59_T9S/view?usp=sharing"
+                class="image fit"
+              >
                 <div class="col-12 col-12-small image-box box5">
                   <div class="titles">
                     <span>
-                      <h5>Constructor-Word-Guess</h5>
-                      <a href="https://github.com/dallasappraiser/Constructor-Word-Guess"><i class="fab fa-github"
-                          aria-hidden="true"></i> &nbsp;&nbsp;
-                        Repository</a>
+                      <h5>LIRI node-app</h5>
+                      <a
+                        href="https://github.com/michaelgentilini/liri-node-app"
+                        ><i class="fab fa-github" aria-hidden="true"></i>
+                        &nbsp;&nbsp; Repository</a
+                      >
                     </span>
                   </div>
-                </div> -->
+                </div>
+              </a>
+            </div>
+          </section>
+          <!-- </div> -->
+        </article>
 
+        <!-- Contact -->
+        <article id="contact" class="panel">
+          <header>
+            <h2>Contact Me</h2>
+          </header>
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+          >
+            <div>
+              <p class="hidden">
+                <label
+                  >Don’t fill this out if you're human: <input name="bot-field"
+                /></label>
+              </p>
+              <div class="row">
+                <div class="col-6 col-12-medium">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="col-6 col-12-medium">
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    rows=""
+                    required
+                  ></textarea>
+                </div>
+                <div data-netlify-recaptcha="true"></div>
 
-
-          </div>
-        </section>
-      </article>
-
-      <!-- Contact -->
-      <article id="contact" class="panel">
-        <header>
-          <h2>Contact Me</h2>
-        </header>
-        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true"
-          data-netlify="true">
-          <div>
-            <p class="hidden">
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-            </p>
-            <div class="row">
-              <div class="col-6 col-12-medium">
-                <input type="text" name="name" id="name" placeholder="Name" />
-              </div>
-              <div class="col-6 col-12-medium">
-                <input type="text" name="email" id="email" placeholder="Email" />
-              </div>
-              <div class="col-12">
-                <input type="text" name="subject" id="subject" placeholder="Subject" />
-              </div>
-              <div class="col-12">
-                <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
-              </div>
-              <div data-netlify-recaptcha="true"></div>
-              <div class="col-12 submit-message">
-                <input type="submit" value="Send Message" id="submit-message" />
+                <div class="col-12 submit-message">
+                  <input
+                    type="submit"
+                    value="Send Message"
+                    id="submit-message"
+                  />
+                </div>
               </div>
             </div>
+          </form>
+
+          <div class="contact-links">
+            <a class="mail-link" href="mailto:mgentilinidev@gmail.com"
+              >mgentilinidev@gmail.com</a
+            >
+            <a class="phone-link" href="tel:+2144770960">214 477-0960</a>
           </div>
-        </form>
 
-        <div class="contact-links">
-          <a class="mail-link" href="mailto:michael@dfwqualityappraisal.com">michael@dfwqualityappraisal.com</a>
-          <a class="phone-link" href="tel:+2144770960">214 477-0960</a>
+          <div class="social-links">
+            <!-- ? github profile -->
+            <a href="https://github.com/michaelgentilini"
+              ><i class="fab fa-github fa-3x"></i
+            ></a>
+            <!-- ? LinkedIn profile -->
+            <a href="https://www.linkedin.com/in/michaelgentilini/"
+              ><i class="fab fa-linkedin-square fa-3x"></i
+            ></a>
+            <!-- ? Resume Link -->
+            <a
+              href="./assets/docs/Resume-2019.pdf"
+              download="Michael Gentilini Resume"
+              ><i class="fas fa-file-download fa-3x"></i><br
+            /></a>
+          </div>
+
+          <!-- </div> -->
+          <!-- </div> -->
+        </article>
+
+        <div id="footer">
+          <div class="row aln-center">
+            <div>MGentilini &copy; 2019</div>
+            <div>
+              <a class="mail-link" href="mailto:mgentilinidev@gmail.com.com"
+                >mgentilinidev@gmail.com</a
+              >
+            </div>
+            <div>
+              <a class="phone-link" href="tel:+2144770960">214 477-0960</a>
+            </div>
+          </div>
         </div>
-
-        <div class="social-links">
-          <!-- ? github profile -->
-          <a href="https://github.com/dallasappraiser"><i class="fab fa-github fa-3x"></i></a>
-          <!-- ? LinkedIn profile -->
-          <a href="https://www.linkedin.com/in/dallasappraiser/"><i class="fab fa-linkedin-square fa-3x"></i></a>
-          <!-- ? Resume Link -->
-          <a href="./assets/docs/Resume-2019.pdf" download="Michael Gentilini Resume"><i
-              class="fas fa-file-download fa-3x"></i><br></a>
-        </div>
-
-
+        <!-- end of main -->
+      </div>
+      <!-- end of wrapper -->
     </div>
-  </div>
-  </article>
-
-
-  <div id="footer">
-    <div class="row aln-center">
-      <div> MGentilini &copy; 2019 </div>
-
-      <div><a class="mail-link" href="mailto:michael@dfwqualityappraisal.com">michael@dfwqualityappraisal.com</a></div>
-
-      <div><a class="phone-link" href="tel:+2144770960">214 477-0960</a></div>
-
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-</body>
-
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
 </html>
